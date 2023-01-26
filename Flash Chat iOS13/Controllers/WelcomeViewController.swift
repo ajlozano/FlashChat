@@ -8,6 +8,7 @@
 
 import UIKit
 import CLTypingLabel
+import FirebaseCore
 
 class WelcomeViewController: UIViewController {
 
