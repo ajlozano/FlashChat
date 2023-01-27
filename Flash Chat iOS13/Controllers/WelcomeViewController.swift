@@ -19,7 +19,7 @@ class WelcomeViewController: UIViewController {
         
         // Char interval can be modifiedwith next line
         //titleLabel.charInterval = 0.1
-        titleLabel.text = Constants.titleName
+        titleLabel.text = K.titleName
     }
     
 
