@@ -271,7 +271,7 @@
             </objects>
             <point key="canvasLocation" x="2800.7633587786258" y="643.66197183098598"/>
         </scene>
-        <!--Chat View Controller-->
+        <!--⚡️FlashChat-->
         <scene sceneID="yeH-Ia-3JZ">
             <objects>
                 <viewController id="lwd-AH-u8E" customClass="ChatViewController" customModule="Flash_Chat_iOS13" customModuleProvider="target" sceneMemberID="viewController">
@@ -334,8 +334,9 @@
                         </constraints>
                     </view>
                     <toolbarItems/>
-                    <navigationItem key="navigationItem" id="AIh-bu-86H">
+                    <navigationItem key="navigationItem" title="⚡️FlashChat" id="AIh-bu-86H">
                         <barButtonItem key="rightBarButtonItem" title="Log Out" id="w7V-pB-E23">
+                            <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             <connections>
                                 <action selector="logOutPressed:" destination="lwd-AH-u8E" id="7rf-3o-y8x"/>
                             </connections>
@@ -359,6 +360,26 @@
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="y06-51-O4Q">
                         <rect key="frame" x="0.0" y="59" width="393" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
+                        <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="barTintColor" name="BrandBlue"/>
+                        <textAttributes key="titleTextAttributes">
+                            <fontDescription key="fontDescription" type="system" weight="black" pointSize="25"/>
+                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </textAttributes>
+                        <navigationBarAppearance key="standardAppearance">
+                            <color key="backgroundColor" name="BrandBlue"/>
+                            <textAttributes key="titleTextAttributes">
+                                <fontDescription key="fontDescription" type="system" weight="black" pointSize="25"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </textAttributes>
+                        </navigationBarAppearance>
+                        <navigationBarAppearance key="scrollEdgeAppearance">
+                            <color key="backgroundColor" name="BrandBlue"/>
+                            <textAttributes key="titleTextAttributes">
+                                <fontDescription key="fontDescription" type="system" weight="black" pointSize="25"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </textAttributes>
+                        </navigationBarAppearance>
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
@@ -374,7 +395,7 @@
         <designable name="y7D-jv-BlJ"/>
     </designables>
     <inferredMetricsTieBreakers>
-        <segue reference="t42-GY-o9c"/>
+        <segue reference="xZ7-zD-eGu"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="paperplane.fill" catalog="system" width="128" height="119"/>
