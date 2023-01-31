@@ -17,7 +17,6 @@ class LoginViewController: UIViewController {
     override func viewDidLoad() {
         if let user = Auth.auth().currentUser {
             emailTextfield.text = user.email
-            passwordTextfield.text = "123456"
         }
     }
 
