@@ -3,7 +3,6 @@
 //  Flash Chat iOS13
 //
 //  Created by Toni Lozano Fernández on 26/1/23.
-//  Copyright © 2023 Angela Yu. All rights reserved.
 //
 
 import Foundation
